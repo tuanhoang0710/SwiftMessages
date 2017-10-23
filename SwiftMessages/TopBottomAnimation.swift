@@ -78,7 +78,7 @@ public class TopBottomAnimation: NSObject, Animator {
             // Important to layout now in order to get the right safe area insets
             container.layoutIfNeeded()
             var top: CGFloat = 0
-            var bottom: CGFloat = 0
+            var bottom: CGFloat = 50
             switch style {
             case .top:
                 top += adjustable.bounceAnimationOffset
